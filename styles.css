@@ -1,0 +1,35 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+logo-product {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0 1em;
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  font-family: Helvetica, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+logo-product::shadow .product-img {
+  cursor: pointer;
+  background: #FFF;
+  margin: 1em 0;
+}
+
+logo-product::shadow .product-name {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #08C;
+  border-top: 1px solid #EEE;
+  font-weight: bold;
+  padding: 0.75em 0;
+}
